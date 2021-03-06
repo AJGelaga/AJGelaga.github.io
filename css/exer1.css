@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Genshin-Impact';
+    src: local('../add-ons/fonts/genshin') format('truetype');
+}
+
+@font-face {
+    font-family:'Ikaros-Light';
+    src: local('../add-ons/fonts/Ikaros-Light') format('opentype');
+}
+
+@font-face {
+    font-family: 'Ikaros-Regular';
+    src: local('../add-ons/fonts/Ikaros-Regular') format('opentype');
+}
+
+body {
+    background-image: url('../add-ons/images/venti.jpg');
+    object-fit: contain;
+}
+
+#intro {
+    margin-top: 2em;
+}
+
+#introtext {
+    font-family: 'Genshin-Impact';
+    font-size: 16px;
+    text-align: center;
+}
+
+.slide {
+    text-align: center;
+}
