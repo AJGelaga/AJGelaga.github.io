@@ -1,0 +1,102 @@
+
+/* SETUP SECTION */
+@font-face {
+    font-family: 'Genshin';
+    src: url(./add-ons/fonts/genshin.ttf);
+}
+
+body {
+    background-image: url(./add-ons/images/bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:auto;
+    width: 100% auto;
+    height: 100% auto;
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+/* NAME AND PICTURE SECTION */
+#name-box {
+    height: 700px;
+    padding-top: 10%;
+}
+
+#name-section {
+    height: 50%;
+    margin: auto;
+}
+
+#name-id {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.75in;
+    width: 2.75in;
+    border-radius: 50%;
+    border: solid 5px goldenrod;
+}
+
+#text-box {
+    margin-top: 2.5%;
+    padding: 1%;
+    height: 50%;
+    text-align: center;
+}
+
+#nickname {
+    font-size: 60px;
+    font-family: 'Genshin';
+    color:beige;
+    letter-spacing: 25px;
+}
+
+#name-text {
+    font-size: 45px;
+    font-family: 'Genshin';
+    color: bisque;
+}
+
+/* SEPARATE CONTENT SECTION*/
+
+.slides {
+    height:350px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10%;
+    border: solid 5px goldenrod ;
+}
+
+.slide-text {
+    font-size: 30px;
+    font-family: 'Genshin';
+}
+
+#clear {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    font-family: 'Genshin';
+    font-size: 20px;
+    color: antiquewhite;
+    padding-top: 30px;
+}
+
+
+#slideshow-box {
+    background-color:whitesmoke;
+    opacity: 0.5;
+}
